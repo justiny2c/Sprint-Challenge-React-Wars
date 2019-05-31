@@ -1,8 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 .App {
   text-align: center;
+  height: 100%;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+.character-list {
+  font-size: 1.2rem;
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.person {
+  width: 25%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: hsl(0, 0%, 83%, 0.5);
+  margin: 5px;
+  border: 2px solid burlywood
+  /* padding: 50px; */
+}
