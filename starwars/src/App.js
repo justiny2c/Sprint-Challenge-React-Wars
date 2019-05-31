@@ -16,7 +16,6 @@ class App extends Component {
   };
 
 
-
   getCharacters = URL => {
     // feel free to research what this code is doing.
     // At a high level we are calling an API to fetch some starwars data from the open web.

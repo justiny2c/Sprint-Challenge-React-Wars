@@ -8,6 +8,7 @@ function CharacterList (props){
             return (
                 <div className = "person">
                     <p>{person.name}</p>
+                    <p className = "birth-year">Birth: {person.birth_year}</p>
                 </div>
                 
             )})}
